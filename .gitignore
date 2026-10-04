@@ -1,0 +1,23 @@
+# Secrets (API keys). .env.example is kept as a template.
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+.venv/
+
+# Tool caches
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Lab reports used for local testing (may contain real patient data)
+*.pdf
